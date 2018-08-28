@@ -150,9 +150,9 @@ var Aerolito = {
 		return fim;
 	},
 	AumentarVelocidade: function(){
-		if(pontos >= margemPontos && pontos <= 1000){
-			velocidadeAerolitos += 0.5;
-			margemPontos += 50;
+		if(pontos >= margemPontos){
+			velocidadeAerolitos += 1;
+			margemPontos += 10;
 		}
 	},
 	Margens: function(){
